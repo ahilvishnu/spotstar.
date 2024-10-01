@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image:url(./img.jpg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: fit-content;
+            margin: 20px;
+        }
+
+        fieldset {
+            width: 350px;
+            margin: auto;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        input{
+            width: 200px;
+        }
+
+        label{
+            display: inline-block;
+            margin: 10px 0;
+        }
+
+        input[type="checkbox"] {
+            width: auto;
+            margin-right: 5px;
+        }
+
+        #cancel_button{
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        #signup_button{
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <img src="s.png" alt="">
+            <h1>SPOTSTAR SIGNUP</h1>
+            <input type="text" placeholder="FIRST NAME"><br><br>
+            <input type="text" placeholder="LAST NAME"><br><br>
+            <input type="date" placeholder="DOB"><br><br>
+            <input type="tel" placeholder="PHONE"><br><br>
+            <input type="email" placeholder="EMAIL"><br><br>
+            <input type="password" placeholder="PASSWORD"><br><br>
+            <input type="password" placeholder="CONFIRM PASSWORD"><br><br>
+            <input type="checkbox">
+            <label for="" style="color: white;">Service Agreement</label><br><br>
+            <a href="index.html" id="cancel_button">CANCEL</a>
+            <a href="signup_otp_verification.html" id="signup_button">SIGNUP</a>
+        </fieldset>
+    </form>
+</body>
+</html>

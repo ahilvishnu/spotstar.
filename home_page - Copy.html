@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTSTAR Login</title>
+    <style>
+        body {
+            background-image:url(./img.jpg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 800px;
+            margin: 0;
+        }
+
+        fieldset {
+            
+            width: 600px;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        #profile_pic{
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        #spotstar_text{
+            border-radius: 2%;
+            margin-right: 280px;
+        }
+
+        .movie_song{
+            margin-right: 20px;
+        }
+        .back_button {
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .ms{
+            img:hover {
+            transform: scale(1.1);
+            transition: transform 0.5s ease-in-out;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <div>
+                <img src="profile pic.jpeg.jpg" alt="" height="50px" width="50px" id="profile_pic" style="border-radius: 50%;">
+                <img src="SPOTSTAR TEXT.jpg" alt="" height="50px" id="spotstar_text" style="border-radius: 2%;">
+            </div>
+            <br><br><br><br>
+            <div class="ms">
+                <a href="movie_layout.html"><img src="movies.jpg" alt="" height="200px" class="movie_song" style="border-radius: 6%;"></a>
+                <a href="song_layout.html"><img src="songs.jpg" alt="" height="200px" class="movie_song" style="border-radius: 6%;"></a>
+            </div><br>
+            <a href="index.html" class="back_button">Back</a>
+        </fieldset>
+    </form>
+</body>
+</html>

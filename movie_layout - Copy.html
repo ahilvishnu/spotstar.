@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTSTAR Login</title>
+    <style>
+        body {
+            background-image:url(./img.jpg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: fit-content;
+            margin: 30px;
+            background-attachment: fixed;
+        }
+
+        fieldset {
+            
+            width: 600px;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        #profile_pic{
+            border-radius: 50%;
+            margin-right: 150px;
+            
+        }
+
+        #song_search{
+            margin-right: 150px;
+            
+            height: 30px;
+        }
+
+        #song_search_bar{
+            height: 30px;
+        }
+
+        p{
+            font-size: 30px;
+            color: white;
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        select {
+            height: 30px;
+            display: inline-block;
+        }
+
+        .back_button {
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        img {
+            margin-right: 10px;
+            margin-bottom: 5px;
+            border-radius: 5%;
+            transition: transform 0.3s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <div>
+                <img src="profile pic.jpeg.jpg" alt="profile_pic" height="50px" width="50px" id="profile_pic" style="border-radius: 50%;">
+                <input type="search" placeholder="Search" id="song_search_bar"> <button id="song_search">SEARCH</button>
+            </div>
+            <br><br>
+            <p>Languages</p><br>
+            <a href="tamil_movie.html"><img src="Tamil.jpg" alt="" height="150px"></a>
+            <a href="telugu_movie.html"><img src="Telugu.jpg" alt="" height="150px"></a>
+            <a href="malayalam_movie.html"><img src="Malayalam.jpg" alt="" height="150px"></a><br><br>
+            <a href="home_page.html" class="back_button">Back</a>
+        </fieldset>
+    </form>
+</body>
+</html>
