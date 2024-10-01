@@ -1,1 +1,1 @@
-# spotstar.
+spotstar.
